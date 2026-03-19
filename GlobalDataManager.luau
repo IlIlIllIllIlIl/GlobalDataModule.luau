@@ -2,15 +2,8 @@
 local DataStoreService = game:GetService("DataStoreService")
 
 local DataTemplete = { -- you can put your data templates here
-	DonateBoard = {
-		One = {Player = "N", Robux = 0, UserId = 0};
-		Two = {Player = "N", Robux = 0, UserId = 0};
-		Three = {Player = "N", Robux = 0, UserId = 0};
-		Four = {Player = "N", Robux = 0, UserId = 0};
-		Five = {Player = "N", Robux = 0, UserId = 0};
-	}
-	
-	
+	Gold = 0;
+	Kill = 0;
 }
 local DataStore = DataStoreService:GetDataStore("GlobalGameData_1") -- Change this to your DataStore name
 
